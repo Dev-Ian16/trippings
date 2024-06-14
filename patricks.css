@@ -1,0 +1,801 @@
+
+.background{
+    width: 100%;
+    height: 100vh;
+    background-image:url(cat\ bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+
+#box1{
+    border: 1px solid;
+    height: 400px;
+    width: 500px;
+    background: rgb(245, 245, 245);
+    position:relative;
+    top: 100px;
+    left: 250px;
+}
+h1{
+    border: 3px solid;
+    position: relative;
+    left:188px;
+    display: inline-block;
+    background: violet;
+}
+.gif{
+    height:230px ;
+    width: 230px;
+    position: absolute;
+    top: 70px ;
+}
+h2{
+    font-size: large;
+    left: 160px;
+    top: 80px;
+    position: absolute;
+    
+}
+
+#bt2{
+    font-size: 50px;
+    left: 200px;
+    bottom: 30px;
+    position: absolute;
+    background: plum;
+    border-radius: 80%;
+    cursor: pointer;
+}
+.popup{
+    background: rgb(225, 181, 236);
+    width: 55%;
+    height: 75%;
+    position:absolute;
+    top: 120px;
+    left: 230px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+}
+.popup-content{
+    height: 320px;
+    width: 400px;
+    background: rgba(255, 255, 255, 0.425);
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+}
+.close{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 560px;
+    top:1px;
+    border-radius: 50%;
+    cursor: pointer;
+   
+}
+#bt3{
+    font-size: 40px;
+    left: 100px;
+    bottom: 30px;
+    position: absolute;
+    background: plum;
+    border-radius: 80%;
+    cursor: pointer;
+}
+
+#bt4{
+    font-size: 40px;
+    left: 250px;
+    bottom: 30px;
+    position: absolute;
+    background: plum;
+    border-radius: 80%;
+    cursor: pointer;
+}
+
+h3{
+    font-size: 23px;
+    left: 45px;
+    position: absolute;
+}
+h4{
+    font-size: 23px;
+    left: 65px;
+    position: absolute;
+    top: 60px;
+}
+
+h5{
+    font-size: 23px;
+    left: 105px;
+    position: absolute;
+    top: 90px;
+
+}
+h6{
+    font-size: 23px;
+    left: 125px;
+    position: absolute;
+    top: 150px;
+}
+
+h7{
+    font-size: 23px;
+    left: 160px;
+    position: absolute;
+    top: 240px;
+}
+.emoji{
+    height: 50px;
+    width: 90px;
+    position: absolute;
+    bottom: 80px;
+    left: 260px;
+}
+.hicat{
+    height: 120px;
+    width: 120px;
+    top:1px;
+    left: 1px;
+    position: absolute;
+}
+
+.popup2{
+    background: lightblue;
+    width: 65%;
+    height: 80%;
+    position:absolute;
+    top: 100px;
+    left: 200px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-image:url(aebg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.pic1{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    display: none;
+    left: 180px;
+    top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.pic2{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left:20px;
+    top: 10px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+}
+.pic3{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left:340px;
+    top: 10px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+}
+.pic4{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left:500px;
+    top: 10px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+}
+.play{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 270px;
+    bottom: 50px;
+    cursor: pointer; 
+}
+
+#btn{
+    font-size: 40px;
+    left: 250px;
+    bottom: 30px;
+    position: absolute;
+    background: plum;
+    border-radius: 80%;
+    cursor: pointer;
+}
+
+.popup3{
+    height: 100px;
+    width: 500px;
+    background: rgba(245, 245, 245, 0);
+    position:absolute;
+    top: 200px;
+    left: 120px;
+    display: none;
+    font-size: 20px;
+
+}
+.wink{
+    height: 80px;
+    width: 90px;
+    position: absolute;
+    bottom: -20px;
+    left: 290px;  
+}
+
+.close2{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 630px;
+    top:1px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.popup4{
+    background: white;
+    width: 65%;
+    height: 88%;
+    position:absolute;
+    top: 60px;
+    left: 180px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.ghug{
+    height: 220px;
+    width: 220px;
+    top:1px;
+    left: 500px;
+    position: absolute;
+}
+.close3{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 640px;
+    top:1px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.ep1{
+    width:100px;
+    height: 100px;
+    position: absolute;
+    left:30px;
+    top:10px;
+}
+.ep2{
+    width:100px;
+    height: 100px;
+    position: absolute;
+    left:130px;
+    top:10px;
+}
+.ep3{
+    width:100px;
+    height: 100px;
+    position: absolute;
+    left:230px;
+    top:10px;
+}
+.ep4{
+    width:100px;
+    height: 100px;
+    position: absolute;
+    left:330px;
+    top:10px;
+}
+.ep5{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left:430px;
+    top:10px;
+}
+.ep6{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left:570px;
+    top:10px;
+}
+.ep7{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left:550px;
+    top:100px;
+}
+.ep8{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left:550px;
+    top:200px;
+}
+.ep9{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left:550px;
+    top:320px;
+}
+.ep10{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left:430px;
+    top:320px;
+}
+.ep11{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left:300px;
+    top:320px;
+}
+.ep16{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left:180px;
+    top:320px;
+}
+.ep12{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left:30px;
+    top:320px;
+}
+.ep13{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left:30px;
+    top:200px;
+}
+.ep14{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left:30px;
+    top:120px;
+}
+
+.full{
+    width: 300px;
+    height: 180px;
+    position: absolute;
+    left: 50 px;
+    top:120px;
+}
+@media (max-device-width: 430px )
+{
+    .background{
+        width: 100%;
+        height: 100vh;
+        background-image:url(cat\ bg.jpg);
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+    }
+    
+    #box1{
+        border: 1px solid;
+        height: 700px;
+        width: 800px;
+        background: rgb(245, 245, 245);
+        position:relative;
+    
+        top: 300px;
+        left: 100px;
+    }
+    h1{
+        border: 3px solid;
+        position: relative;
+        left:280px;
+        display: inline-block;
+        background: violet;
+        font-size: 55px;
+    }
+    .gif{
+        height:370px ;
+        width: 370px;
+        position: absolute;
+        top: 130px ;
+        left:220px;
+    }
+    h2{
+        font-size: 35px;
+        left: 200px;
+        top: 105px;
+        position: absolute;
+        
+    }
+    
+    #bt2{
+        font-size: 80px;
+        left: 320px;
+        bottom: 80px;
+        position: absolute;
+        background: plum;
+        border-radius: 80%;
+        cursor: pointer;
+    }
+    .popup{
+        background: rgb(225, 181, 236);
+        width: 810px;
+        height: 800px;
+        position:absolute;
+        top: 250px;
+        left: 100px;
+        display: none;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .popup-content{
+        height: 550px;
+        width: 600px;
+        background: rgba(255, 255, 255, 0.425);
+        border-radius: 5px;
+        padding: 20px;
+        position: relative;
+    }
+    .close{
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        left: 800px;
+        top:1px;
+        border-radius: 50%;
+        cursor: pointer;
+       
+    }
+    #bt3{
+        font-size: 60px;
+        left: 120px;
+        bottom: 30px;
+        position: absolute;
+        background: plum;
+        border-radius: 80%;
+        cursor: pointer;
+    }
+    
+    #bt4{
+        font-size: 60px;
+        left: 350px;
+        bottom: 30px;
+        position: absolute;
+        background: plum;
+        border-radius: 80%;
+        cursor: pointer;
+    }
+    
+    h3{
+        font-size: 35px;
+        left: 45px;
+        position: absolute;
+    }
+    h4{
+        font-size: 40px;
+        left: 35px;
+        position: absolute;
+        top: 60px;
+    }
+    
+    h5{
+        font-size: 45px;
+        left: 95px;
+        position: absolute;
+        top: 100px;
+    
+    }
+    h6{
+        font-size: 50px;
+        left: 125px;
+        position: absolute;
+        top: 240px;
+    }
+    
+    h7{
+        font-size: 50px;
+        left: 200px;
+        position: absolute;
+        top: 410px;
+    }
+    .emoji{
+        height: 90px;
+        width: 165px;
+        position: absolute;
+        bottom: 90px;
+        left: 430px;
+    }
+    .hicat{
+        height: 120px;
+        width: 120px;
+        top:1px;
+        left: 1px;
+        position: absolute;
+    }
+    
+    .popup2{
+        background: lightblue;
+        width: 850px;
+        height: 820px;
+        position:absolute;
+        top: 250px;
+        left: 90px;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        background-image:url(aebg.png);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    
+    
+    .pic1{
+        width: 200px;
+        height: 300px;
+        position: absolute;
+        display: none;
+        left: 210px;
+        top: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .pic2{
+        width: 200px;
+        height: 300px;
+        position: absolute;
+        left:1px;
+        top: 10px;
+        display: none;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .pic3{
+        width: 200px;
+        height: 300px;
+        position: absolute;
+        left:420px;
+        top: 10px;
+        display: none;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .pic4{
+        width: 200px;
+        height: 300px;
+        position: absolute;
+        left:620px;
+        top: 10px;
+        display: none;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .play{
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        left: 270px;
+        bottom: 50px;
+        cursor: pointer; 
+    }
+    
+    #btn{
+        font-size: 110px;
+        left: 250px;
+        bottom: 50px;
+        position: absolute;
+        background: plum;
+        border-radius: 80%;
+        cursor: pointer;
+    }
+    
+    .popup3{
+        height: 400px;
+        width: 700px;
+        background: rgba(245, 245, 245, 0);
+        position:absolute;
+        top: 340px;
+        left: 80px;
+        display: none;
+        font-size: 40px;
+    
+    }
+    .wink{
+        height: 80px;
+        width: 90px;
+        position: absolute;
+        bottom: 120px;
+        left: 490px;  
+    }
+   
+    
+    .close2{
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        left: 820px;
+        top:1px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    .popup4{
+        background:white;
+        width: 850px;
+        height: 850px;
+        position:absolute;
+        top: 220px;
+        left: 90px;
+        display: none;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+    .ghug{
+        height: 350px;
+        width: 350px;
+        top:1px;
+        left: 500px;
+        position: absolute;
+    }
+    .close3{
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        left: 810px;
+        top:1px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+
+.ep1{
+    width:200px;
+    height: 200px;
+    position: absolute;
+    left:30px;
+    top:10px;
+}
+.ep2{
+    width:200px;
+    height: 200px;
+    position: absolute;
+    left:180px;
+    top:10px;
+}
+.ep3{
+    width:200px;
+    height: 200px;
+    position: absolute;
+    left:340px;
+    top:10px;
+}
+.ep4{
+    width:200px;
+    height: 200px;
+    position: absolute;
+    left:460px;
+    top:10px;
+}
+.ep5{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left:570px;
+    top:10px;
+}
+.ep6{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left:720px;
+    top:10px;
+}
+.ep7{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left:30px;
+    top:150px;
+}
+.ep8{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left:30px;
+    top:320px;
+}
+.ep9{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left:620px;
+    top:200px;
+}
+.ep10{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left:650px;
+    top:350px;
+}
+.ep11{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left:30px;
+    top:500px;
+}
+.ep16{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left:30px;
+    top:700px;
+}
+.ep12{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left:240px;
+    top:600px;
+}
+.ep13{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left:380px;
+    top:600px;
+}
+.ep14{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left:600px;
+    top:600px;
+}
+
+.full{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    left: 50 px;
+    top:220px;
+}
+}
+

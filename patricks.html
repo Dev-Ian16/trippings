@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <link rel="stylesheet" href="patricks.css">
+    <body>
+        <div class="background"></div>
+        <div id="box1"><h1>Hi Patrick!!
+            <h2><em></em></h2></h1>
+            <img class="gif" src="hipat.png" alt="cat">
+            <button id="bt2">Hello</button>
+        </div>
+        <div class="popup">
+            <img class="close" src="vis pic/close.jpg" alt="Close">
+            <img class="hicat" src="vis pic/hicat.png" alt="Hicat">
+        
+            <div class="popup-content">
+            <h3> <em></em>Hi patrick, paalis ka na ng bansa</em></h3>
+            <h4><em></em>mag iingat ka pre mamimiss ka </em></h4>
+            <h5><em>namin, wag mo kami kakalimutan</em></h5>
+            <h6><em>May surprise akong </em></h6>
+            <h7><em>hinanda sayo</em></h7>
+            <button id="bt3">Pictures</button>
+            <button id="bt4">Music</button>
+            <img class="emoji" src="vis pic/flyemoji.png" alt="Emoji">
+            </div>
+        </div>
+        <div class="popup2">
+            <img class="pic1" src="yan.jpeg" alt="Pic1">
+            <img class="pic2" src="ed.jpeg" alt="Pic2">
+            <img class="pic3" src="elf.jpeg" alt="Pic3">
+            <img class="pic4" src="ken.jpeg" alt="Pic4">
+            <button onmousedown="sound1.play()" id="btn">PLAY</button>
+            <img class="close2" src="vis pic/close.jpg" alt="Close2">
+            <div class="popup3"><em> Pre ingat ka sa pagalis lagi mong tatandaan andito lang kaming 4 handang umutang sayo sa panahon ng pangagailangan </em>
+            <img class="wink" src="vis pic/wink.png" alt="Wink">
+            </div>
+        </div>
+        <div class="popup4">
+            <img class="ep1" src="ep1.png" alt="Ep1">
+            <img class="ep2" src="ep2.png" alt="Ep2">
+            <img class="ep3" src="ep3.png" alt="Ep3">
+            <img class="ep4" src="ep4.png" alt="Ep4">
+            <img class="ep5" src="ep5.png" alt="Ep5">
+            <img class="ep6" src="ep6.png" alt="Ep6">
+            <img class="ep7" src="ep7.png" alt="Ep7">
+            <img class="ep8" src="ep8.png" alt="Ep8">
+            <img class="ep9" src="ep9.png" alt="Ep9">
+            <img class="ep10" src="ep10.png" alt="Ep10">
+            <img class="ep11" src="ep11.png" alt="Ep11">
+            <img class="ep12" src="ep12.png" alt="Ep12">
+            <img class="ep13" src="ep13.png" alt="Ep13">
+            <img class="ep14" src="ep14.png" alt="Ep14">
+            <img class="full" src="full.jpeg" alt="Full">
+            <img class="ep16" src="ep16.png" alt="Ep16">
+            <img class="close3" src="vis pic/close.jpg" alt="Close3">
+        </div>
+    
+
+
+        </div>
+
+        <script>
+            document.getElementById("bt2").addEventListener("click", function(){
+                document.querySelector(".popup").style.display = "flex";
+            })
+            document.querySelector(".close").addEventListener("click", function(){
+                document.querySelector(".popup").style.display = "none";
+            })
+            document.getElementById("btn").addEventListener("click", function(){
+                document.querySelector(".pic1").style.display = "flex";
+            })
+            document.getElementById("btn").addEventListener("click", function(){
+                document.querySelector(".pic2").style.display = "flex";
+            })
+            document.getElementById("btn").addEventListener("click", function(){
+                document.querySelector(".pic3").style.display = "flex";
+            })
+            document.getElementById("btn").addEventListener("click", function(){
+                document.querySelector(".pic4").style.display = "flex";
+            })
+            document.getElementById("bt4").addEventListener("click", function(){
+                document.querySelector(".popup2").style.display = "flex";
+            })
+            document.getElementById("btn").addEventListener("click", function(){
+                document.querySelector(".popup3").style.display = "flex";
+            })
+            document.querySelector(".close2").addEventListener("click", function(){
+                document.querySelector(".popup2").style.display = "none";
+            })
+            document.getElementById("bt3").addEventListener("click", function(){
+                document.querySelector(".popup4").style.display = "flex";
+            })
+            document.querySelector(".close3").addEventListener("click", function(){
+                document.querySelector(".popup4").style.display = "none";
+            })
+            var sound1= new Audio();
+            sound1.src = "Huling Sayaw  Kamikazee ft Kyla (With Lyrics).mp3"
+        </script>
+    </body>
+
+
+
+</html>
